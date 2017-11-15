@@ -5,7 +5,7 @@ Arguably the most used command in SQL, SELECT is a good way to grab information 
 Here we have a table called:
 
 
-| : Login                                                   : |
+|  Login                                                      |
 | Username      | Password      | Email                       |
 | ------------- | ------------- | -------------               |
 | olivercollins | mypassword    | oliver.collins@colorado.edu |
