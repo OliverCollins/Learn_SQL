@@ -1,6 +1,10 @@
 ### SELECT Command
 
-Colons can be used to align columns.
+Arguably the most used command in SQL, SELECT is a good way to grab information from tables.
+
+Here we have a table called:
+
+####                 LOGIN
 
 | Username      | Password      | Email                       |
 | ------------- | ------------- | -------------               |
