@@ -1,5 +1,7 @@
 ### SELECT Command
 
+======
+
 Arguably the most used command in SQL, SELECT is a good way to grab information from tables.
 
 Here we have a table called: "Login"
