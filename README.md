@@ -54,3 +54,7 @@ SELECT * FROM Login;
 ### WHERE Command
 
 ---
+
+### JOIN Command
+
+---
