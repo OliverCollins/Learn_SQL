@@ -58,3 +58,6 @@ SELECT * FROM Login;
 ### JOIN Command
 
 ---
+
+### DELETE Command
+
