@@ -53,6 +53,29 @@ SELECT * FROM Login;
 
 ### WHERE Command
 
+Let's create a new table:
+
+Row | Username      | Password      | Email                       |
+--- | ------------- | ------------- | --------------------------- |
+1   | olivercollins | mypassword    | oliver.collins@colorado.edu |
+2   | sqllover10    | selectiscool  | ilovesql@yahoo.com          |
+3   | abc123        | password123   | myemail@aol.com             |
+
+
+With the WHERE clause, you can select certain aspects of a table.
+
+```sql
+SELECT * FROM Login
+WHERE Password='mypassword';
+```
+You can also use WHERE numerically
+
+```sql
+SELECT * FROM Login
+WHERE Row=1;
+```
+In both of these cases, we will see the first row returned.
+
 ---
 
 ### JOIN Command
