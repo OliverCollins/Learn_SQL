@@ -121,3 +121,7 @@ DELETE * FROM Login;
 ```
 
 ---
+
+### UPDATE Command
+
+---
