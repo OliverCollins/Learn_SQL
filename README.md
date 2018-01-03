@@ -107,4 +107,17 @@ Row | Username      | Password      | Email                       |
 1   | olivercollins | mypassword    | oliver.collins@colorado.edu |
 3   | abc123        | password123   | myemail@aol.com             |
 
+
+You can also delete an entire table without deleting the structure (i.e. attributes or indexes):
+
+```sql
+DELETE FROM Login;
+```
+
+or
+
+```sql
+DELETE * FROM Login;
+```
+
 ---
