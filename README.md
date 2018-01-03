@@ -74,6 +74,7 @@ You can also use WHERE numerically
 SELECT * FROM Login
 WHERE Row=1;
 ```
+
 In both of these cases, we will see the first row returned.
 
 ---
@@ -84,3 +85,26 @@ In both of these cases, we will see the first row returned.
 
 ### DELETE Command
 
+With the DELETE clause, you can delete certain records from a table.
+
+Row | Username      | Password      | Email                       |
+--- | ------------- | ------------- | --------------------------- |
+1   | olivercollins | mypassword    | oliver.collins@colorado.edu |
+2   | sqllover10    | selectiscool  | ilovesql@yahoo.com          |
+3   | abc123        | password123   | myemail@aol.com             |
+
+From this table if we use the command:
+
+```sql
+DELETE FROM Login
+WHERE Row=2;
+```
+
+Our new table would be
+
+Row | Username      | Password      | Email                       |
+--- | ------------- | ------------- | --------------------------- |
+1   | olivercollins | mypassword    | oliver.collins@colorado.edu |
+3   | abc123        | password123   | myemail@aol.com             |
+
+---
