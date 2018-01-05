@@ -138,4 +138,12 @@ SET Username = 'new_username', Email= 'new_username@yahoo.com'
 WHERE Row = 1;
 ```
 
+Our modified table would now look like:
+
+Row | Username      | Password      | Email                       |
+--- | ------------- | ------------- | --------------------------- |
+1   | new_username  | mypassword    | new_username@yahoo.com      |
+2   | sqllover10    | selectiscool  | ilovesql@yahoo.com          |
+3   | abc123        | password123   | myemail@aol.com             |
+
 ---
