@@ -81,13 +81,13 @@ In both of these cases, we will see the first row returned.
 
 ### JOIN Command
 
-##### Inner Join
+#### Inner Join
 
-##### Right Join
+#### Right Join
 
-##### Left Join
+#### Left Join
 
-##### Full Join
+#### Full Join
 
 ---
 
