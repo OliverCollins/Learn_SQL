@@ -124,4 +124,18 @@ DELETE * FROM Login;
 
 ### UPDATE Command
 
+You can use the UPDATE clause to modify data within a table
+
+Row | Username      | Password      | Email                       |
+--- | ------------- | ------------- | --------------------------- |
+1   | olivercollins | mypassword    | oliver.collins@colorado.edu |
+2   | sqllover10    | selectiscool  | ilovesql@yahoo.com          |
+3   | abc123        | password123   | myemail@aol.com             |
+
+```sql
+UPDATE Login
+SET Username = 'new_username', Email= 'new_username@yahoo.com'
+WHERE Row = 1;
+```
+
 ---
