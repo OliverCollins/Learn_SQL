@@ -81,6 +81,14 @@ In both of these cases, we will see the first row returned.
 
 ### JOIN Command
 
+##### Inner Join
+
+##### Right Join
+
+##### Left Join
+
+##### Full Join
+
 ---
 
 ### DELETE Command
