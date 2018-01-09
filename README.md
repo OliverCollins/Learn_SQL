@@ -83,6 +83,28 @@ In both of these cases, we will see the first row returned.
 
 #### Inner Join
 
+Login Table
+
+Row | Username      | Password      | Email                       |
+--- | ------------- | ------------- | --------------------------- |
+1   | olivercollins | mypassword    | oliver.collins@colorado.edu |
+2   | sqllover10    | selectiscool  | ilovesql@yahoo.com          |
+3   | abc123        | password123   | myemail@aol.com             |
+
+Item Table
+
+UserID | ItemNumber    | Country       | Email                       |
+---    | ------------- | ------------- | --------------------------- |
+1      | 20938         | China         | oliver.collins@colorado.edu |
+2      | 19922         | South Korea   | ilovesql@yahoo.com          |
+3      | 98472         | China         | myemail@aol.com             |
+
+```sql
+SELECT Login.Username, Item.UserID
+FROM Login
+INNER JOIN Item ON Login.Email = Item.Email
+```
+
 #### Right Join
 
 #### Left Join
