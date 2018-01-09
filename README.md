@@ -154,6 +154,10 @@ or
 DELETE * FROM Login;
 ```
 
+Row | Username      | Password      | Email                       |
+--- | ------------- | ------------- | --------------------------- |
+    |               |               |                             |
+
 ---
 
 ### UPDATE Command
