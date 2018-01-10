@@ -111,6 +111,12 @@ INNER JOIN Item ON Login.Email = Item.Email
 
 #### Right Join
 
+```sql
+SELECT Login.Username, Item.Country
+FROM Login
+RIGHT JOIN Item ON Login.Email = Item.Email
+```
+
 #### Left Join
 
 #### Full Join
