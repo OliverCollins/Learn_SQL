@@ -187,3 +187,7 @@ Row | Username      | Password      | Email                       |
 3   | abc123        | password123   | myemail@aol.com             |
 
 ---
+
+### CREATE command
+
+To create a table... (Add)
