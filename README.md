@@ -6,10 +6,10 @@ Structured Query Language (SQL) is a programming language used for manipulating 
 1. [SELECT Command](#select-command)
 2. [WHERE Command](#where-command)
 3. [JOIN Command](#join-command)
-  1. [Inner Join](#inner-join)
-  2. [Right Join](#right-join)
-  3. [Left Join](#left-join)
-  4. [Full Join](#full-join)
+  1. [Inner Join](#join1)
+  2. [Right Join](#join2)
+  3. [Left Join](#join3)
+  4. [Full Join](#join4)
 4. [DELETE Command](#delete-command)
 5. [UPDATE Command](#update-command)
 6. [CREATE Command](#create-command)
@@ -97,7 +97,7 @@ In both of these cases, we will see the first row returned.
 
 ### JOIN Command
 
-#### Inner Join
+#### Inner Join <a name="join1"></a>
 
 Login Table
 
@@ -121,7 +121,7 @@ FROM Login
 INNER JOIN Item ON Login.Email = Item.Email
 ```
 
-#### Right Join
+#### Right Join <a name="join2"></a>
 
 ```sql
 SELECT Login.Username, Item.Country
@@ -129,9 +129,9 @@ FROM Login
 RIGHT JOIN Item ON Login.Email = Item.Email
 ```
 
-#### Left Join
+#### Left Join <a name="join3"></a>
 
-#### Full Join
+#### Full Join <a name="join4"></a>
 
 ---
 
