@@ -3,7 +3,16 @@
 Structured Query Language (SQL) is a programming language used for manipulating data within a relational database management system. 
 
 # Table of Contents
-1. [CREATE Command](#create-command)
+1. [SELECT Command](#select-command)
+2. [WHERE Command](#where-command)
+3. [JOIN Command](#join-command)
+  1. [Inner Join](#inner-join)
+  2. [Right Join](#right-join)
+  3. [Left Join](#left-join)
+  4. [Full Join](#full-join)
+4. [DELETE Command](#delete-command)
+5. [UPDATE Command](#update-command)
+6. [CREATE Command](#create-command)
 
 ### SELECT Command
 
