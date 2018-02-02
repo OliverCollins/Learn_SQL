@@ -13,6 +13,7 @@ Structured Query Language (SQL) is a programming language used for manipulating 
 4. [DELETE Command](#delete-command)
 5. [UPDATE Command](#update-command)
 6. [CREATE Command](#create-command)
+7. [LIKE Command](#like-command)
 
 ### SELECT Command
 
@@ -203,3 +204,5 @@ Row | Username      | Password      | Email                       |
 ### CREATE command
 
 To create a table... (Add)
+
+### LIKE command
