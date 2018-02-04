@@ -14,6 +14,9 @@ Structured Query Language (SQL) is a programming language used for manipulating 
 5. [UPDATE Command](#update-command)
 6. [CREATE Command](#create-command)
 7. [LIKE Command](#like-command)
+8. [COUNT Command](#count-command)
+9. [AVG Command](#avg-command)
+10. [SUM Command](#sum-command)
 
 ### SELECT Command
 
@@ -206,3 +209,15 @@ Row | Username      | Password      | Email                       |
 To create a table... (Add)
 
 ### LIKE command
+
+### COUNT command
+
+To be added...
+
+### AVG command
+
+To be added...
+
+### SUM command
+
+To be added...
