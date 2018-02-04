@@ -5,18 +5,18 @@ Structured Query Language (SQL) is a programming language used for manipulating 
 # Table of Contents
 1. [SELECT Command](#select-command)
 2. [WHERE Command](#where-command)
-3. [JOIN Command](#join-command)
+3. [COUNT Command](#count-command)
+4. [AVG Command](#avg-command)
+5. [SUM Command](#sum-command)
+6. [JOIN Command](#join-command)
     1. [INNER Join](#join1)
     2. [RIGHT Join](#join2)
     3. [LEFT Join](#join3)
     4. [FULL Join](#join4)
-4. [DELETE Command](#delete-command)
-5. [UPDATE Command](#update-command)
-6. [CREATE Command](#create-command)
-7. [LIKE Command](#like-command)
-8. [COUNT Command](#count-command)
-9. [AVG Command](#avg-command)
-10. [SUM Command](#sum-command)
+7. [DELETE Command](#delete-command)
+8. [UPDATE Command](#update-command)
+9. [CREATE Command](#create-command)
+10. [LIKE Command](#like-command)
 
 ### SELECT Command
 
@@ -96,6 +96,20 @@ WHERE Row=1;
 ```
 
 In both of these cases, we will see the first row returned.
+
+---
+
+### COUNT command
+
+To be added...
+
+### AVG command
+
+To be added...
+
+### SUM command
+
+To be added...
 
 ---
 
@@ -209,15 +223,3 @@ Row | Username      | Password      | Email                       |
 To create a table... (Add)
 
 ### LIKE command
-
-### COUNT command
-
-To be added...
-
-### AVG command
-
-To be added...
-
-### SUM command
-
-To be added...
