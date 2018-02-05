@@ -101,7 +101,12 @@ In both of these cases, we will see the first row returned.
 
 ### COUNT command
 
-To be added...
+Count is very similar to length in many other programming languages. It simply counts the number of rows in a particular column.
+
+```sql
+SELECT COUNT(*)
+FROM Login;
+```
 
 ### AVG command
 
