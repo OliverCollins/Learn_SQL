@@ -225,6 +225,15 @@ Row | Username      | Password      | Email                       |
 
 ### CREATE command
 
-To create a table... (Add)
+Creating a table in SQL is easy. Let's say you wanted to create an empty Login table.
+
+```sql
+CREATE TABLE Login (
+    Row int,
+    Username varchar(255),
+    Password varchar(255),
+    Email varchar(255),
+);
+```
 
 ### LIKE command
