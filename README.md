@@ -37,6 +37,7 @@ If we run the following code:
 ```sql
 SELECT Username FROM Login;
 ```
+
 The Usernames from the Login table will be returned.
 
 | Username      |
@@ -237,3 +238,8 @@ CREATE TABLE Login (
 ```
 
 ### LIKE command
+
+```sql
+SELECT * FROM Login
+WHERE Username LIKE 'a%';
+```
