@@ -79,8 +79,8 @@ Let's create a new table:
 Row | Username      | Password      | Email                       |
 --- | ------------- | ------------- | --------------------------- |
 1   | olivercollins | mypassword    | oliver.collins@colorado.edu |
-2   | sqllover10    | selectiscool  | ilovesql@yahoo.com          |
-3   | abc123        | password123   | myemail@aol.com             |
+2   | timthecook    | selectiscool  | tim.cook@apple.com          |
+3   | markymark     | password123   | mark.zuck@fb.com            |
 
 
 With the WHERE clause, you can select certain aspects of a table.
@@ -132,16 +132,16 @@ Login Table
 Row | Username      | Password      | Email                       |
 --- | ------------- | ------------- | --------------------------- |
 1   | olivercollins | mypassword    | oliver.collins@colorado.edu |
-2   | sqllover10    | selectiscool  | ilovesql@yahoo.com          |
-3   | abc123        | password123   | myemail@aol.com             |
+2   | timthecook    | selectiscool  | tim.cook@apple.com          |
+3   | markymark     | password123   | mark.zuck@fb.com            |
 
 Item Table
 
 UserID | ItemNumber    | Country       | Email                       |
 ---    | ------------- | ------------- | --------------------------- |
 1      | 20938         | China         | oliver.collins@colorado.edu |
-2      | 19922         | South Korea   | ilovesql@yahoo.com          |
-3      | 98472         | China         | myemail@aol.com             |
+2      | 19922         | South Korea   | tim.cook@apple.com          |
+3      | 98472         | China         | mark.zuck@fb.com            |
 
 ```sql
 SELECT Login.Username, Item.UserID
@@ -170,8 +170,8 @@ With the DELETE clause, you can delete certain records from a table.
 Row | Username      | Password      | Email                       |
 --- | ------------- | ------------- | --------------------------- |
 1   | olivercollins | mypassword    | oliver.collins@colorado.edu |
-2   | sqllover10    | selectiscool  | ilovesql@yahoo.com          |
-3   | abc123        | password123   | myemail@aol.com             |
+2   | timthecook    | selectiscool  | tim.cook@apple.com          |
+3   | markymark     | password123   | mark.zuck@fb.com            |
 
 From this table if we use the command:
 
@@ -185,7 +185,7 @@ Our new table would be
 Row | Username      | Password      | Email                       |
 --- | ------------- | ------------- | --------------------------- |
 1   | olivercollins | mypassword    | oliver.collins@colorado.edu |
-3   | abc123        | password123   | myemail@aol.com             |
+3   | markymark     | password123   | mark.zuck@fb.com            |
 
 
 You can also delete an entire table without deleting the structure (i.e. attributes or indexes):
@@ -209,8 +209,8 @@ You can use the UPDATE clause to modify data within a table
 Row | Username      | Password      | Email                       |
 --- | ------------- | ------------- | --------------------------- |
 1   | olivercollins | mypassword    | oliver.collins@colorado.edu |
-2   | sqllover10    | selectiscool  | ilovesql@yahoo.com          |
-3   | abc123        | password123   | myemail@aol.com             |
+2   | timthecook    | selectiscool  | tim.cook@apple.com          |
+3   | markymark     | password123   | mark.zuck@fb.com            |
 
 ```sql
 UPDATE Login
@@ -223,8 +223,8 @@ Our modified table would now look like:
 Row | Username      | Password      | Email                       |
 --- | ------------- | ------------- | --------------------------- |
 1   | new_username  | mypassword    | new_username@yahoo.com      |
-2   | sqllover10    | selectiscool  | ilovesql@yahoo.com          |
-3   | abc123        | password123   | myemail@aol.com             |
+2   | timthecook    | selectiscool  | tim.cook@apple.com          |
+3   | markymark     | password123   | mark.zuck@fb.com            |
 
 ---
 
