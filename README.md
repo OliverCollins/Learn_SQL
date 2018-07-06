@@ -96,7 +96,11 @@ SELECT * FROM Login
 WHERE Row=1;
 ```
 
-In both of these cases, we will see the first row returned.
+In both of these cases, we will see:
+
+Row | Username      | Password      | Email                       |
+--- | ------------- | ------------- | --------------------------- |
+1   | olivercollins | mypassword    | oliver.collins@colorado.edu |
 
 ---
 
