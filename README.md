@@ -74,7 +74,7 @@ SELECT * FROM Login;
 
 ### WHERE Command
 
-Let's create a new table:
+Let's create a new Login table:
 
 Row | Username      | Password      | Email                       |
 --- | ------------- | ------------- | --------------------------- |
@@ -173,7 +173,7 @@ Row | Username      | Password      | Email                       |
 2   | timthecook    | selectiscool  | tim.cook@apple.com          |
 3   | markymark     | password123   | mark.zuck@fb.com            |
 
-From this table if we use the command:
+From this Login table if we use the command:
 
 ```sql
 DELETE FROM Login
@@ -218,7 +218,7 @@ SET Username = 'new_username', Email= 'new_username@yahoo.com'
 WHERE Row = 1;
 ```
 
-Our modified table would now look like:
+Our modified Login table would now look like:
 
 Row | Username      | Password      | Email                       |
 --- | ------------- | ------------- | --------------------------- |
