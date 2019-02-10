@@ -29,8 +29,8 @@ Here we have a table called: "Login"
 | Username      | Password      | Email                       |
 | ------------- | ------------- | --------------------------- |
 | olivercollins | mypassword    | oliver.collins@colorado.edu |
-| timthecook    | selectiscool  | tim.cook@apple.com          |
-| markymark     | password123   | mark.zuck@fb.com            |
+| timthecook    | 9to5mac       | tim.cook@apple.com          |
+| markymark     | ilovedata     | mark.zuck@fb.com            |
 
 If we run the following code:
 
@@ -67,8 +67,8 @@ SELECT * FROM Login;
 | Username      | Password      | Email                       |
 | ------------- | ------------- | --------------------------- |
 | olivercollins | mypassword    | oliver.collins@colorado.edu |
-| timthecook    | selectiscool  | tim.cook@apple.com          |
-| markymark     | password123   | mark.zuck@fb.com            |
+| timthecook    | 9to5mac       | tim.cook@apple.com          |
+| markymark     | ilovedata     | mark.zuck@fb.com            |
 
 ---
 
@@ -79,8 +79,8 @@ Let's create a new Login table:
 Row | Username      | Password      | Email                       |
 --- | ------------- | ------------- | --------------------------- |
 1   | olivercollins | mypassword    | oliver.collins@colorado.edu |
-2   | timthecook    | selectiscool  | tim.cook@apple.com          |
-3   | markymark     | password123   | mark.zuck@fb.com            |
+2   | timthecook    | 9to5mac       | tim.cook@apple.com          |
+3   | markymark     | ilovedata     | mark.zuck@fb.com            |
 
 
 With the WHERE clause, you can select certain aspects of a table.
@@ -132,8 +132,8 @@ Login Table
 Row | Username      | Password      | Email                       |
 --- | ------------- | ------------- | --------------------------- |
 1   | olivercollins | mypassword    | oliver.collins@colorado.edu |
-2   | timthecook    | selectiscool  | tim.cook@apple.com          |
-3   | markymark     | password123   | mark.zuck@fb.com            |
+2   | timthecook    | 9to5mac       | tim.cook@apple.com          |
+3   | markymark     | ilovedata     | mark.zuck@fb.com            |
 
 Item Table
 
@@ -170,8 +170,8 @@ With the DELETE clause, you can delete certain records from a table.
 Row | Username      | Password      | Email                       |
 --- | ------------- | ------------- | --------------------------- |
 1   | olivercollins | mypassword    | oliver.collins@colorado.edu |
-2   | timthecook    | selectiscool  | tim.cook@apple.com          |
-3   | markymark     | password123   | mark.zuck@fb.com            |
+2   | timthecook    | 9to5mac       | tim.cook@apple.com          |
+3   | markymark     | ilovedata     | mark.zuck@fb.com            |
 
 From this Login table if we use the command:
 
@@ -185,7 +185,7 @@ Our new table would be
 Row | Username      | Password      | Email                       |
 --- | ------------- | ------------- | --------------------------- |
 1   | olivercollins | mypassword    | oliver.collins@colorado.edu |
-3   | markymark     | password123   | mark.zuck@fb.com            |
+3   | markymark     | ilovedata     | mark.zuck@fb.com            |
 
 
 You can also delete an entire table without deleting the structure (i.e. attributes or indexes):
@@ -209,8 +209,8 @@ You can use the UPDATE clause to modify data within a table
 Row | Username      | Password      | Email                       |
 --- | ------------- | ------------- | --------------------------- |
 1   | olivercollins | mypassword    | oliver.collins@colorado.edu |
-2   | timthecook    | selectiscool  | tim.cook@apple.com          |
-3   | markymark     | password123   | mark.zuck@fb.com            |
+2   | timthecook    | 9to5mac       | tim.cook@apple.com          |
+3   | markymark     | ilovedata     | mark.zuck@fb.com            |
 
 ```sql
 UPDATE Login
@@ -223,8 +223,8 @@ Our modified Login table would now look like:
 Row | Username      | Password      | Email                       |
 --- | ------------- | ------------- | --------------------------- |
 1   | new_username  | mypassword    | new_username@yahoo.com      |
-2   | timthecook    | selectiscool  | tim.cook@apple.com          |
-3   | markymark     | password123   | mark.zuck@fb.com            |
+2   | timthecook    | 9to5mac       | tim.cook@apple.com          |
+3   | markymark     | ilovedata     | mark.zuck@fb.com            |
 
 ---
 
